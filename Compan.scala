@@ -3,10 +3,13 @@ class compan{
     println("Inside companion class")
   }
 }
-object Compan {
-  def main(args: Array[String]): Unit = {
-    new compan().hello()
 
+object Compan {
+
+  def main(args: Array[String]): Unit = {
+
+    new compan().hello()
+    println("Hello")
   }
 
 }
