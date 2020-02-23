@@ -28,6 +28,7 @@ object DeltaData extends App {
   val deltadf3= spark.sql("select febdf.* from febdf join jandf on febdf.id = jandf.id and febdf.salary != jandf.salary")
 
   val result = deltadf.union(deltadf2).union(deltadf3)
+  println(result.printSchema())
   result.show()
 
 }
