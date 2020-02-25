@@ -1,4 +1,4 @@
-10101,Gopal,Savings,ICICI,50000
+10101,Harpreet,Savings,ICICI,50000
 10201,Krishna,Current,SBI,56000
 10301,Ravi,Savings,HDFC,67000
 20201,Ramya,Savings,SBI,89000
