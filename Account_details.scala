@@ -11,7 +11,7 @@ object Account_details {
       .csv("C:\\Users\\Harpreet\\IdeaProjects\\HelloWorld\\src\\main\\scala\\AccountDetails.txt")
         .toDF("id","holder_name","type","bankname","amount")
 
-    //accdf.show(5)
+   
     import spark.implicits._
     //accdf.filter('amount>50000).select('id,'bankname,'amount).show()
     //accdf.where('amount > 50000 && 'amount <70000).orderBy('bankname.desc).show()
